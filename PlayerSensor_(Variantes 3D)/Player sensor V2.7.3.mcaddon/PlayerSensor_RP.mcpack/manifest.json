@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player sensor V2.5",
+    "description": "Recursos visuales originales del Player Sensor.",
+    "uuid": "5eab7bd7-4532-451a-9f41-fc13da036c16",
+    "version": [
+      2,
+      7,
+      3
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b3618574-ceea-43a7-b024-4d989e457068",
+      "version": [
+        2,
+        7,
+        3
+      ]
+    }
+  ]
+}

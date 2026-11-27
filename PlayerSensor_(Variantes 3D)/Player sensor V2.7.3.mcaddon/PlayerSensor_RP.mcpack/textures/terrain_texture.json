@@ -1,0 +1,56 @@
+{
+  "resource_pack_name": "Player Sensor",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "playersensor:player_sensor_off": {
+      "textures": "textures/blocks/player_sensor_off"
+    },
+    "playersensor:player_sensor_on": {
+      "textures": "textures/blocks/player_sensor_on"
+    },
+    "playersensor:player_sensor_purple_off": {
+      "textures": "textures/blocks/player_sensor_purple_off"
+    },
+    "playersensor:player_sensor_purple_on": {
+      "textures": "textures/blocks/player_sensor_purple_on"
+    },
+    "playersensor:player_sensor_red_off": {
+      "textures": "textures/blocks/player_sensor_red_off"
+    },
+    "playersensor:player_sensor_red_on": {
+      "textures": "textures/blocks/player_sensor_red_on"
+    },
+    "playersensor:player_sensor_green_off": {
+      "textures": "textures/blocks/player_sensor_green_off"
+    },
+    "playersensor:player_sensor_green_on": {
+      "textures": "textures/blocks/player_sensor_green_on"
+    },
+    "playersensor:player_sensor_yellow_off": {
+      "textures": "textures/blocks/player_sensor_yellow_off"
+    },
+    "playersensor:player_sensor_yellow_on": {
+      "textures": "textures/blocks/player_sensor_yellow_on"
+    },
+    "playersensor:player_sensor_black_off": {
+      "textures": "textures/blocks/player_sensor_black_off"
+    },
+    "playersensor:player_sensor_black_on": {
+      "textures": "textures/blocks/player_sensor_black_on"
+    },
+    "playersensor:player_sensor_orange_off": {
+      "textures": "textures/blocks/player_sensor_orange_off"
+    },
+    "playersensor:player_sensor_orange_on": {
+      "textures": "textures/blocks/player_sensor_orange_on"
+    },
+    "playersensor:player_sensor_black_solid_off": {
+      "textures": "textures/blocks/player_sensor_black_solid_off"
+    },
+    "playersensor:player_sensor_black_solid_on": {
+      "textures": "textures/blocks/player_sensor_black_solid_on"
+    }
+  }
+}

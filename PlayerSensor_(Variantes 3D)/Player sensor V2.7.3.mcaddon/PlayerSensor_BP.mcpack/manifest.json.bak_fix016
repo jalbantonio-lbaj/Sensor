@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player Sensor - Correccion 0.4",
+    "description": "Sensor direccional de jugadores con barra luminosa y colocacion corregida.",
+    "uuid": "415dcfd3-1eff-4de2-babd-1df50cf6a0ff",
+    "version": [
+      0,
+      8,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "91731a0c-b94c-43a8-ad08-4aed065c9602",
+      "version": [
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e64749f8-1457-4f9c-a664-90f40de3140e",
+      "version": [
+        0,
+        8,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ef53d05d-72eb-4f0c-8ba9-296f89c79136",
+      "version": [
+        0,
+        4,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

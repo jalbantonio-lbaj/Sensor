@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.playersensor.hold_first_person": {
+      "loop": true,
+      "bones": {
+        "root_item": {
+          "rotation": [
+            160,
+            30,
+            45
+          ],
+          "position": [
+            8,
+            21,
+            8
+          ]
+        }
+      }
+    },
+    "animation.playersensor.hold_third_person": {
+      "loop": true,
+      "bones": {
+        "root_item": {
+          "rotation": [
+            80,
+            0,
+            0
+          ],
+          "position": [
+            0.45,
+            17.5,
+            -1
+          ],
+          "scale": 0.9
+        }
+      }
+    }
+  }
+}

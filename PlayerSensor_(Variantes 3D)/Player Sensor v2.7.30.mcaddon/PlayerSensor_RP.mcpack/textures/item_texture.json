@@ -1,0 +1,35 @@
+{
+  "resource_pack_name": "Player Sensor v2.7.29",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "playersensor:player_sensor_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_item_3d"
+    },
+    "playersensor:player_sensor_purple_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_purple_item_3d"
+    },
+    "playersensor:player_sensor_red_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_red_item_3d"
+    },
+    "playersensor:player_sensor_green_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_green_item_3d"
+    },
+    "playersensor:player_sensor_yellow_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_yellow_item_3d"
+    },
+    "playersensor:player_sensor_black_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_black_item_3d"
+    },
+    "playersensor:player_sensor_orange_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_orange_item_3d"
+    },
+    "playersensor:player_sensor_black_solid_item": {
+      "textures": "textures/items/icons/playersensor_player_sensor_black_solid_item_3d"
+    },
+    "playersensor:player_sensor_rainbow_item": {
+      "textures": "textures/items/player_sensor_rainbow_item"
+    }
+  },
+  "padding": 8,
+  "num_mip_levels": 4
+}

@@ -1,0 +1,27 @@
+{
+  "minecraft:item": {
+    "description": {
+      "identifier": "playersensor:player_sensor_orange",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.redstone"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Player Sensor Naranja"
+      },
+      "minecraft:icon": "playersensor:player_sensor_orange_item",
+      "minecraft:block_placer": {
+        "block": "playersensor:player_sensor_orange",
+        "replace_block_item": true,
+        "aligned_placement": false
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:hand_equipped": true
+    }
+  },
+  "components": {
+    "minecraft:hand_equipped": true
+  }
+}

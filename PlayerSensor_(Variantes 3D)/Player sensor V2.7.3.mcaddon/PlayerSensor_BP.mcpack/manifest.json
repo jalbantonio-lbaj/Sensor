@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player sensor V2.5",
+    "description": "Sensor direccional de jugadores.",
+    "uuid": "8c0d3a89-0a4c-4754-b964-58fb7915df54",
+    "version": [
+      2,
+      7,
+      3
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2791dd8f-b8b0-412f-bf0b-263934920a20",
+      "version": [
+        2,
+        7,
+        3
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "168f1240-6ca7-481f-ab1a-be1657d7df0e",
+      "version": [
+        2,
+        7,
+        3
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5eab7bd7-4532-451a-9f41-fc13da036c16",
+      "version": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

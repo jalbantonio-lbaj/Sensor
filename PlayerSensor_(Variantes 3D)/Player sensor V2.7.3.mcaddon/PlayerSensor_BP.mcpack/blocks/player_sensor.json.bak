@@ -1,0 +1,177 @@
+{
+  "format_version": "1.26.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "playersensor:player_sensor",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.redstone"
+      },
+      "states": {
+        "playersensor:active": [
+          false,
+          true
+        ]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.playersensor.player_sensor",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "playersensor:player_sensor_off",
+          "render_method": "alpha_test",
+          "face_dimming": false
+        }
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -2,
+          1,
+          -2
+        ],
+        "size": [
+          4,
+          14,
+          4
+        ]
+      },
+      "minecraft:collision_box": false,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.0
+      },
+      "minecraft:flammable": false,
+      "minecraft:tick": {
+        "interval_range": [
+          5,
+          5
+        ],
+        "looping": true
+      },
+      "minecraft:light_emission": 0,
+      "minecraft:redstone_producer": {
+        "power": 0,
+        "connected_faces": [
+          "down",
+          "up",
+          "north",
+          "south",
+          "east",
+          "west"
+        ],
+        "strongly_powered_face": "up"
+      },
+      "playersensor:detect_players": {},
+      "minecraft:light_dampening": 0,
+      "minecraft:display_name": "tile.playersensor:player_sensor.name"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('playersensor:active') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "playersensor:player_sensor_on",
+              "render_method": "alpha_test",
+              "face_dimming": false
+            }
+          },
+          "minecraft:light_emission": 15,
+          "minecraft:redstone_producer": {
+            "power": 15,
+            "connected_faces": [
+              "down",
+              "up",
+              "north",
+              "south",
+              "east",
+              "west"
+            ],
+            "strongly_powered_face": "up"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              180,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

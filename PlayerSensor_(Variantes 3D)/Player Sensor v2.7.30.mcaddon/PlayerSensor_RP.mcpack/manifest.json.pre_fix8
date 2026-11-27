@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player Sensor - Recursos Fix018",
+    "description": "Texturas y geometria de la barra luminosa del sensor.",
+    "uuid": "ef53d05d-72eb-4f0c-8ba9-296f89c79136",
+    "version": [
+      0,
+      18,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "0e1a38ee-62ec-4c1a-9f1c-9d2c28a0fe39",
+      "version": [
+        0,
+        18,
+        0
+      ]
+    }
+  ]
+}

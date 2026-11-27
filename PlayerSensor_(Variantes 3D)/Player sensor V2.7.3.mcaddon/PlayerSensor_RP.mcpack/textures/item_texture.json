@@ -1,0 +1,32 @@
+{
+  "resource_pack_name": "Player Sensor",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "playersensor:player_sensor_item": {
+      "textures": "textures/items/player_sensor_item"
+    },
+    "playersensor:player_sensor_purple_item": {
+      "textures": "textures/items/player_sensor_purple_item"
+    },
+    "playersensor:player_sensor_red_item": {
+      "textures": "textures/items/player_sensor_red_item"
+    },
+    "playersensor:player_sensor_green_item": {
+      "textures": "textures/items/player_sensor_green_item"
+    },
+    "playersensor:player_sensor_yellow_item": {
+      "textures": "textures/items/player_sensor_yellow_item"
+    },
+    "playersensor:player_sensor_black_item": {
+      "textures": "textures/items/player_sensor_black_item"
+    },
+    "playersensor:player_sensor_orange_item": {
+      "textures": "textures/items/player_sensor_orange_item"
+    },
+    "playersensor:player_sensor_black_solid_item": {
+      "textures": "textures/items/player_sensor_black_solid_item"
+    }
+  },
+  "padding": 8,
+  "num_mip_levels": 4
+}

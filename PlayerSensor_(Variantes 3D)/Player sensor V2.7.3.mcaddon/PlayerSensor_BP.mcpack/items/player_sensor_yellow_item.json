@@ -1,0 +1,24 @@
+{
+  "format_version": "1.26.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "playersensor:player_sensor_yellow",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.redstone"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.playersensor:player_sensor_yellow.name"
+      },
+      "minecraft:icon": "playersensor:player_sensor_yellow_item",
+      "minecraft:block_placer": {
+        "block": "playersensor:player_sensor_yellow",
+        "replace_block_item": true,
+        "aligned_placement": false
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

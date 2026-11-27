@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "playersensor:player_sensor_black_solid",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/player_sensor_black_solid_off"
+      },
+      "geometry": {
+        "default": "geometry.playersensor.player_sensor_item_3d"
+      },
+      "render_controllers": [
+        "controller.render.playersensor_item"
+      ],
+      "animations": {
+        "hold_first_person": "animation.playersensor.hold_first_person",
+        "hold_third_person": "animation.playersensor.hold_third_person",
+        "first_person_hold": "animation.playersensor.hold_first_person",
+        "third_person_hold": "animation.playersensor.hold_third_person"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person_hold": "context.is_first_person == 1.0"
+          },
+          {
+            "third_person_hold": "context.is_first_person == 0.0"
+          }
+        ]
+      }
+    }
+  }
+}
